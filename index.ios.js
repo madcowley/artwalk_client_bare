@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('artwalk', () => artwalk);
+AppRegistry.registerComponent('artwalk', () => Artwalk);
