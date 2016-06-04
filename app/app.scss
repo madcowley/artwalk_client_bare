@@ -1,0 +1,44 @@
+$white: rgba(248,248,248, 1);
+$green: rgb(153, 204, 0);
+$blue: rgb(42, 140, 239);
+$light-blue: rgba(42,140,239,0.5);
+$primary-font-family: 'Source Sans Pro', sans-serif;
+$gutter: 20px;
+
+%over-image-text {
+  text-shadow: 1px 1px rgba(0,0,0,1);
+  color: $white;
+}
+
+@mixin font($fontFamily, $fontSize, $fontWeight) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+}
+
+.fa-2x {
+  font-size: 1.25em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  @include font($primary-font-family, 16px, 100);
+}
+
+body {
+  color: rgba(0,0,0,0.8);
+  line-height: 1.25;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+}
+
+
+@import 'components/logo/logo';
+
+

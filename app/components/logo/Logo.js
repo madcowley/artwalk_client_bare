@@ -7,8 +7,8 @@ import {
 class Logo extends Component {
     render() {
         return (
-            <div>
-                <img src="../../images/artwalk-1.png"/>
+            <div className="logo-container">
+                <img className="logo" src="../../../images/artwalk-1.png"/>
             </div>
         )
     }
