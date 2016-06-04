@@ -4,6 +4,8 @@ import {
     StyleSheet
 } from 'react-native';
 
+require('./logo.scss');
+
 class Logo extends Component {
     render() {
         return (
@@ -13,9 +15,5 @@ class Logo extends Component {
         )
     }
 }
-
-const styles = StyleSheet.create({
-
-});
 
 export default Logo;
