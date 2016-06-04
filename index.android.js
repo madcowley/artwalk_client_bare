@@ -11,7 +11,7 @@ import {
   View
 } from 'react-native';
 
-class artwalk extends Component {
+class Artwalk extends Component {
   render() {
     return (
       <View style={styles.container}>
